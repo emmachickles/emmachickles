@@ -17,5 +17,5 @@ My research sits at the intersection of:
 
 ### 📫 Reach me
 - 📧 echickle@mit.edu
-- 🌐 [emmachickles.github.io](https://emmachickles.github.io)
+- 🌐 [emmachickles.github.io](https://emmachickles.github.io/ztf-embedding-demo/)
 - 🔭 [ORCID](https://orcid.org/0000-0003-4780-4105)
