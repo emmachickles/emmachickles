@@ -8,7 +8,7 @@ My research sits at the intersection of:
 - ⚡ **Scalable ML systems** — distributed multi-GPU training, large-scale data pipelines (TB-scale), and GPU-accelerated periodicity search
 
 ### 🔭 Currently building
-- **`ztf-embedding-demo`** — interactive demo for exploring learned ZTF light-curve embeddings; clickable sources, comparison across representation spaces, focus on whether embeddings capture physical structure vs. survey systematics
+- [**`ztf-embedding-demo`**](https://emmachickles.github.io/ztf-embedding-demo/) — interactive demo for exploring learned ZTF light-curve embeddings; clickable sources, comparison across representation spaces, focus on whether embeddings capture physical structure vs. survey systematics
 - **Self-supervised transformer for ZTF** — dual-head architecture trained with contrastive learning on 1.4B+ irregularly-sampled light curves; scaling to multi-GPU DDP on 16 A100 GPUs on MIT's Engaging cluster (MGHPCC, Holyoke).
 
 ### 📄 Selected publications
