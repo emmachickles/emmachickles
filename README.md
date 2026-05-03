@@ -1,4 +1,4 @@
-## Hi, I'm Emma 👋
+## Hi, I'm Emma 👋🏽
 
 I'm a PhD candidate in Physics at MIT, where I'm part of the [Binary Star Astrophysics group](https://binaries.mit.edu/) at the MIT Kavli Institute. I work on **machine learning for time-domain astronomy** — specifically, self-supervised representation learning on irregularly-sampled light curves from large surveys like the Zwicky Transient Facility (ZTF).
 
