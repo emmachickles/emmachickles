@@ -16,7 +16,7 @@ My research sits at the intersection of:
 - [**`blender_binaries`**](https://github.com/emmachickles/blender_binaries) — physically faithful Blender visualizations of interacting compact binaries, where the rendered mesh *is* the surface that produces the model light curve. Built from `lcurve` fits; showcase: the eclipsing 8.56-minute binary ATLAS J1013−4516.
 
 ### 📄 Selected publications
-- **Chickles, E.** & Audenaert, J. *"Template Matching, Not Time Learning: A Diagnostic for Self-Supervised Light-Curve Encoders"* — *AI4Physics Workshop, ICML* (2026) · [code & paper](https://github.com/emmachickles/period-diagnostic) · [poster](https://emmachickles.github.io/period-diagnostic/poster/poster.pdf)
+- **Chickles, E.** & Burdge, K. *"Template Matching, Not Time Learning: A Diagnostic for Self-Supervised Light-Curve Encoders"* — *AI4Physics Workshop, ICML* (2026) · [code & paper](https://github.com/emmachickles/period-diagnostic) · [poster](https://emmachickles.github.io/period-diagnostic/poster/poster.pdf)
 - **Chickles, E.**, et al. *"An eclipsing 8.56-minute orbital period mass-transferring binary"* — *ApJ* (2026)
 - **Chickles, E.**, et al. *"A gravitational-wave–detectable Type Ia supernova progenitor"* — *ApJ* (2025)
 
