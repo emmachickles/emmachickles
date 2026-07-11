@@ -16,6 +16,9 @@ My research sits at the intersection of:
 - **Self-supervised transformer for ZTF** — dual-head architecture trained with contrastive learning on 1.4B+ irregularly-sampled light curves; scaling to multi-GPU DDP on 16 A100 GPUs on MIT's Engaging cluster (MGHPCC, Holyoke).
 - [**`blender_binaries`**](https://github.com/emmachickles/blender_binaries) — physically faithful Blender visualizations of interacting compact binaries, where the rendered mesh *is* the surface that produces the model light curve. Built from `lcurve` fits; showcase: the eclipsing 8.56-minute binary ATLAS J1013−4516.
 
+### 🎤 Recent talks
+- [**LISA's rich, guaranteed science: Galactic ultracompact binaries**](https://github.com/emmachickles/talks/blob/main/lisa-galactic-binaries-2026.pdf) — binary evolution, Type Ia progenitors, and the physics of accretion (June 2026) · [animated deck](https://github.com/emmachickles/talks/releases/download/lisa-2026/5-GalacticBinaries-EmmaChickles.pptx) · more in [`talks`](https://github.com/emmachickles/talks)
+
 ### 📄 Selected publications
 - **Chickles, E.** & Burdge, K. *"Template Matching, Not Time Learning: A Diagnostic for Self-Supervised Light-Curve Encoders"* — *AI4Physics Workshop, ICML* (2026) · [code & paper](https://github.com/emmachickles/period-diagnostic) · [poster](https://emmachickles.github.io/period-diagnostic/poster/poster.pdf)
 - **Chickles, E.**, et al. *"An eclipsing 8.56-minute orbital period mass-transferring binary"* — *ApJ* (2026)
