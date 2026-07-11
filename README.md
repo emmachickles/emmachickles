@@ -2,7 +2,7 @@
 
 I'm a PhD candidate in Physics at MIT, where I'm part of the [Binary Star Astrophysics group](https://binaries.mit.edu/) at the MIT Kavli Institute. I work on **machine learning for time-domain astronomy** — specifically, self-supervised representation learning on irregularly-sampled light curves from large surveys like the Zwicky Transient Facility (ZTF).
 
-> 📣 **News (2026):** *Template Matching, Not Time Learning* accepted at the **AI4Physics workshop @ ICML 2026** — [read the paper »](https://emmachickles.github.io/period-diagnostic/paper/template-matching-not-time-learning.pdf)
+> 📣 **News (2026):** *Template Matching, Not Time Learning* accepted at the **AI4Physics workshop @ ICML 2026** — [see the poster »](https://emmachickles.github.io/period-diagnostic/poster/poster.pdf)
 
 My research sits at the intersection of:
 - 🌌 **Ultracompact white dwarf binaries** — extreme stellar systems with sub-hour orbital periods, important as [LISA](https://en.wikipedia.org/wiki/Laser_Interferometer_Space_Antenna) gravitational-wave sources and Type Ia supernova progenitors
