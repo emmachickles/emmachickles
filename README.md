@@ -1,31 +1,28 @@
 ## Hi, I'm Emma 👋🏽
 
-I'm a PhD candidate in Physics at MIT, where I'm part of the [Binary Star Astrophysics group](https://binaries.mit.edu/) at the MIT Kavli Institute. I work on **machine learning for time-domain astronomy** — specifically, self-supervised representation learning on irregularly-sampled light curves from large surveys like the Zwicky Transient Facility (ZTF).
+PhD candidate in Physics at MIT ([Binary Star Astrophysics group](https://binaries.mit.edu/), MIT Kavli Institute). I work on **machine learning for large astronomical surveys**, and on measuring how much of a model's output the data actually support.
 
-> 📣 **News (2026):** *Template Matching, Not Time Learning* accepted at the **AI4Physics workshop @ ICML 2026** — [see the poster »](https://emmachickles.github.io/period-diagnostic/poster/poster.pdf)
+### 👉 Start here: **[emmachickles.github.io](https://emmachickles.github.io)**
 
-My research sits at the intersection of:
-- 🌌 **Ultracompact white dwarf binaries** — extreme stellar systems with sub-hour orbital periods, important as [LISA](https://en.wikipedia.org/wiki/Laser_Interferometer_Space_Antenna) gravitational-wave sources and Type Ia supernova progenitors
-- 🤖 **Representation learning** — transformers, contrastive learning, and interpretability of learned embeddings on real-world scientific time-series
-- ⚡ **Scalable ML systems** — distributed multi-GPU training, large-scale data pipelines (TB-scale), and GPU-accelerated periodicity search
+Featured work, papers, and interactive demos live there. A couple worth clicking directly:
 
-### 🔭 Currently building
-- [**`period-diagnostic`**](https://github.com/emmachickles/period-diagnostic) — *Template Matching, Not Time Learning* (**accepted at AI4Physics @ ICML 2026**). A drop-in diagnostic that decomposes period-regression R² into between- vs. within-class signal, revealing that self-supervised light-curve encoders recover stellar periods by **class-template matching, not genuine time learning** — across eight encoders from a 4.4M BiGRU to the 110M MOMENT foundation model. [📄 paper](https://emmachickles.github.io/period-diagnostic/paper/template-matching-not-time-learning.pdf) · [🪧 poster](https://emmachickles.github.io/period-diagnostic/poster/poster.pdf) · [🔭 interactive demo](https://emmachickles.github.io/ztf-embedding-demo/period-aliasing/)
-- [**`inversebench-timedomain`**](https://emmachickles.github.io/inversebench-timedomain/) — *What may a learned prior **legitimately** put in the null space?* Two scientific inverse problems contributed to [InverseBench](https://github.com/devzhk/InverseBench) (ICLR 2025), both on **real ATLAS cadences**: starspot mapping, where the degeneracy is analytically known, and period recovery under a survey window function. Because the null space is computable, *"the prior is inventing structure"* stops being a caveat and becomes a measurement — a matched prior recovers genuinely hidden structure (null-space fidelity **+0.44**) while surfaces it has never seen come back **anti-correlated** (−0.15). On a real cadence the data pins down **19 numbers out of 4608 map pixels**. Forward model cross-validated against [`starry`](https://github.com/rodluger/starry) to 1.6×10⁻⁴. [🌟 starspots 101](https://emmachickles.github.io/inversebench-timedomain/primers/starspots/) · [〰️ aliasing 101](https://emmachickles.github.io/inversebench-timedomain/primers/aliasing/) · [🎨 paint a star](https://emmachickles.github.io/inversebench-timedomain/explorers/starspot/) · [📓 notebook](https://emmachickles.github.io/inversebench-timedomain/notebooks/02_starspot_nullspace.pdf)
-- [**`ztf-pocket`**](https://emmachickles.github.io/ztf-pocket/) — 📱 four phone-first companions to the ICML poster: an embedding explorer (colour by class / period / periodic strictness / amplitude, with the 6.9-min binary ZTF J1539 as a tappable gold ★), a 26k-star "ZTF in the wild" map with injected ultracompacts, an interactive HR diagram, and playable Lomb–Scargle periodograms — all pure-canvas, no dependencies.
-- [**`ztf-embedding-demo`**](https://emmachickles.github.io/ztf-embedding-demo/) — interactive demo for exploring learned ZTF light-curve embeddings; clickable sources, comparison across representation spaces, focus on whether embeddings capture physical structure vs. survey systematics
-- **Self-supervised transformer for ZTF** — dual-head architecture trained with contrastive learning on 1.4B+ irregularly-sampled light curves; scaling to multi-GPU DDP on 16 A100 GPUs on MIT's Engaging cluster (MGHPCC, Holyoke).
-- [**`blender_binaries`**](https://github.com/emmachickles/blender_binaries) — physically faithful Blender visualizations of interacting compact binaries, where the rendered mesh *is* the surface that produces the model light curve. Built from `lcurve` fits; showcase: the eclipsing 8.56-minute binary ATLAS J1013−4516.
+- 🎨 **[Paint a star](https://emmachickles.github.io/inversebench-timedomain/explorers/starspot/)** — on a real survey cadence, a light curve pins down only **19 numbers out of 4,608** map pixels. See what the prior fills in.
+- 🔭 **[Embedding explorer](https://emmachickles.github.io/ztf-pocket/)** — poke at what a self-supervised encoder actually learned from 26k stars.
 
-### 🎤 Recent talks
-- [**LISA's rich, guaranteed science: Galactic ultracompact binaries**](https://github.com/emmachickles/talks/blob/main/lisa-galactic-binaries-2026.pdf) — binary evolution, Type Ia progenitors, and the physics of accretion (June 2026) · [animated deck](https://github.com/emmachickles/talks/releases/download/lisa-2026/5-GalacticBinaries-EmmaChickles.pptx) · more in [`talks`](https://github.com/emmachickles/talks)
+### What's in these repos
 
-### 📄 Selected publications
-- **Chickles, E.** & Burdge, K. *"Template Matching, Not Time Learning: A Diagnostic for Self-Supervised Light-Curve Encoders"* — *AI4Physics Workshop, ICML* (2026) · [code & paper](https://github.com/emmachickles/period-diagnostic) · [poster](https://emmachickles.github.io/period-diagnostic/poster/poster.pdf)
-- **Chickles, E.**, et al. *"An eclipsing 8.56-minute orbital period mass-transferring binary"* — *ApJ* (2026)
-- **Chickles, E.**, et al. *"A gravitational-wave–detectable Type Ia supernova progenitor"* — *ApJ* (2025)
+| | |
+|---|---|
+| [`inversebench-timedomain`](https://emmachickles.github.io/inversebench-timedomain/) | Two inverse problems contributed to [InverseBench](https://github.com/devzhk/InverseBench) (ICLR 2025). Measures what a learned prior invents, rather than caveating it. 🏆 Best Visualization, IAIFI 2026 |
+| [`period-diagnostic`](https://github.com/emmachickles/period-diagnostic) | *Template Matching, Not Time Learning* (ICML 2026, AI4Physics). Encoders look like they read stellar periods; mostly they recognize the class and recall its typical period |
+| [`ztf-pocket`](https://github.com/emmachickles/ztf-pocket) · [`ztf-embedding-demo`](https://github.com/emmachickles/ztf-embedding-demo) | Dependency-free browser tools for inspecting learned representations |
+| [`astrotools`](https://github.com/emmachickles/astrotools) · [`ztf-example`](https://github.com/emmachickles/ztf-example) | Analysis library and tutorial notebooks for survey light curves |
+| [`blender_binaries`](https://github.com/emmachickles/blender_binaries) | Physically faithful renders of interacting binaries — the mesh *is* the surface producing the model light curve |
 
-### 📫 Reach me
-- 📧 echickle@mit.edu
-- 🌐 [emmachickles.github.io](https://emmachickles.github.io/ztf-embedding-demo/)
-- 🔭 [ORCID](https://orcid.org/0000-0003-4780-4105)
+### 📄 Recent
+
+- **Chickles, E.** & Burdge, K., *Template Matching, Not Time Learning* — AI4Physics Workshop, ICML (2026) · [paper](https://emmachickles.github.io/period-diagnostic/paper/template-matching-not-time-learning.pdf) · [poster](https://emmachickles.github.io/period-diagnostic/poster/poster.pdf)
+- **Chickles, E.**, et al., *An eclipsing 8.56-minute orbital period mass-transferring binary* — *ApJ* (2026)
+- **Chickles, E.**, et al., *A gravitational-wave–detectable Type Ia supernova progenitor* — *ApJ* (2025)
+
+📧 echickle@mit.edu · 🌐 [emmachickles.github.io](https://emmachickles.github.io) · 🔭 [ORCID](https://orcid.org/0000-0003-4780-4105)
