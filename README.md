@@ -1,6 +1,6 @@
 ## Hi, I'm Emma 👋🏽
 
-PhD candidate in Physics at MIT ([Binary Star Astrophysics group](https://binaries.mit.edu/), MIT Kavli Institute). I work on **machine learning for large astronomical surveys**, and on measuring how much of a model's output the data actually support.
+PhD candidate in Physics at MIT ([Binary Star Astrophysics group](https://binaries.mit.edu/), MIT Kavli Institute). I use GPUs and machine learning to search hundreds of millions of stellar light curves for **ultracompact binaries** — white dwarf pairs that orbit in minutes, and among the loudest guaranteed sources for LISA. Along the way I build the tests that catch a model learning the survey instead of the sky.
 
 ### 👉 Start here: **[emmachickles.github.io](https://emmachickles.github.io)**
 
